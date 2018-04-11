@@ -9,5 +9,5 @@
 > [《HTTPS服务器》](https://github.com/beverle-y/note/tree/master/node/https)
 
 ### 算法
-
+> [《快速排序》](https://github.com/beverle-y/note/tree/master/agorithm/quickSort)
 
