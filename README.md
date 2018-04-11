@@ -11,6 +11,6 @@
 ### 算法
 > [《快速排序》](https://github.com/beverle-y/note/tree/master/agorithm/quickSort)
 
-### Mobx
+### Mobx 4
 > [《严格模式》](https://github.com/beverle-y/note/tree/master/mobx/configure)
 
