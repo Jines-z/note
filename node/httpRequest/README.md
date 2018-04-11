@@ -23,7 +23,7 @@ var option = {
         'Cookie': cookie_val
     }
 }
-request(option,function(error, response, body) {
+request(option, function(error, response, body) {
     console.log(body)
 })
 ~~~

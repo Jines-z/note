@@ -1,4 +1,4 @@
-## 《Debounce And Throttle》
+## Debounce And Throttle
 
 优化窗口的`resize`、`scroll`、输入框内容校验等操作，减少浏览器的负担，提高用户体验。我们可以减少此类事件触发的频率。
 
