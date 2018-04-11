@@ -1,6 +1,6 @@
 ## HTTP请求
 使用request模块
-~~~
+```Javascript
 var request = require('request')
 function params (options) {
     var paramString = ''
@@ -26,5 +26,5 @@ var option = {
 request(option, function(error, response, body) {
     console.log(body)
 })
-~~~
+```
 [目录](https://github.com/beverle-y/note)

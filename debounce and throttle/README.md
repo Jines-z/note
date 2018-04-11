@@ -32,7 +32,7 @@ window.addEventListener('scroll', debounce(handle, 500))
 #### Throttle 节流
 持续性操作的中间，以相同时间间隔执行
 
-~~~
+```Javascript
 /*
     每隔300ms触发一次，超过1000ms未触发视为第二次操作
     @param fn function
@@ -61,5 +61,5 @@ const handle = () =>{
 }
 
 window.addEventListener('scroll', throttling(handle, 300, 1000));
-~~~
+```
 [目录](https://github.com/beverle-y/note)
