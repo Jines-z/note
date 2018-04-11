@@ -1,9 +1,12 @@
 ## 快速排序
 
 1、找基准；
+
 2、遍历数组，小于基准的放left，大于基准的放right；
+
 3、分别递归左右两边子集，将数组合并返回。
-~~~
+
+```Javascript
 function quickSort(arr){
     // 若只有一个，则返回
     if (arr.length <= 1) {
@@ -30,5 +33,5 @@ function quickSort(arr){
         return quickSort(left).concat([pivot], quickSort(right))
     }
 }
-~~~
+```
 [目录](https://github.com/beverle-y/note)
