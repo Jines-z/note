@@ -5,7 +5,7 @@
 #### Debounce 防抖
 连续性的操作结束后执行。
 
-~~~
+```Javascript
 /*
     操作结束后延时500ms执行
     @param fn function
@@ -27,7 +27,7 @@ const handle = () =>{
 
 // 滚动事件
 window.addEventListener('scroll', debounce(handle, 500))
-~~~
+```
 
 #### Throttle 节流
 持续性操作的中间，以相同时间间隔执行
@@ -41,9 +41,8 @@ window.addEventListener('scroll', debounce(handle, 500))
     @return function
 */
 const throttling = (fn, wait, maxTimeLong) =>{
-    let timeout = null,
-        startTime = Date.parse(new Date)
-
+    let timeout = null
+    let startTime = Date.parse(new Date)
     return () =>{
         if(timeout !== null) clearTimeout(timeout)
         let curTime = Date.parse(new Date);
