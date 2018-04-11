@@ -1,9 +1,9 @@
 ## 《Debounce And Throttle》
 
-优化窗口的`resize`、`scroll`，输入框内容校验等操作，减少浏览器的负担，提高用户体验。我们可以减少此类事件触发的频率。
+优化窗口的`resize`、`scroll`、输入框内容校验等操作，减少浏览器的负担，提高用户体验。我们可以减少此类事件触发的频率。
 
 #### Debounce 防抖
-连续进行的操作结束后执行。
+连续性的操作结束后执行。
 
 ~~~
 /*
@@ -34,7 +34,7 @@ window.addEventListener('scroll', debounce(handle, 500))
 
 ~~~
 /*
-    每隔300ms触发一次，超过1000ms未触发为第二次操作
+    每隔300ms触发一次，超过1000ms未触发视为第二次操作
     @param fn function
     @param wait number
     @param maxTimeLong number
@@ -62,4 +62,5 @@ const handle = () =>{
 
 window.addEventListener('scroll', throttling(handle, 300, 1000));
 ~~~
-[首页](https://github.com/beverle-y/note)
+---------------------------------------
+[<-](https://github.com/beverle-y/note)
