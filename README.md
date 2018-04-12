@@ -15,7 +15,7 @@
 * [《严格模式》](https://github.com/beverle-y/note/tree/master/mobx/configure)
 
 ### React Native
-* [《rn-mobx-course》](https://github.com/beverle-y/note/tree/master/react-native/course)
+* [《rn-mobx-course》](https://github.com/beverle-y/rn-mobx-course)
 
 * [《react-native-pushy 热更新》](https://github.com/reactnativecn/react-native-pushy/blob/master/docs/guide.md)
 
