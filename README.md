@@ -19,3 +19,11 @@
 
 * [《react-native-pushy 热更新》](https://github.com/reactnativecn/react-native-pushy/blob/master/docs/guide.md)
 
+* [《rn-splash-screen 启动屏》](https://github.com/mehcode/rn-splash-screen)
+
+* [《react-native-vector-icons》](https://github.com/oblador/react-native-vector-icons)
+
+* [《react-native-webrtc》](https://github.com/oney/react-native-webrtc)
+
+* [《socket.io-client》](https://github.com/socketio/socket.io-client)
+
