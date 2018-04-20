@@ -57,7 +57,7 @@ this.getLocation().then((coords)=>{
         if(responseBody.status ==1){
             const {adcode,city,district} = responseBody.regeocode.addressComponent
             // adcode获取天气用
-            // city城市   district区域
+            // city城市   district区域   .....
         }
     })
 }).catch((errorMessage)=>{
@@ -77,11 +77,14 @@ let options = {
 }
 Get(url,options,(res)=>{
     if (res.status == 1) {
-        console.log(res)
         const {weather,temperature} = res.lives[0]
-        // weather多云啥的    temperature气温
+        // weather多云啥的    temperature气温  ......
     }
 })
 ```
+
+[高德API](http://lbs.amap.com/)
+
+登录-> 控制台-> 应用管理 ->创建新应用 ->生成key
 
 [目录](https://github.com/beverle-y/note)
