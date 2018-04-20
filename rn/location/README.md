@@ -1,5 +1,12 @@
 ## 定位和天气
 
+### IOS
+你需要在`Info.plist`中增加`NSLocationWhenInUseUsageDescription`字段来启用定位功能。如果你使用`react-native init`创建项目，定位会被默认启用。
+### Android
+要请求访问地理位置的权限，你需要在`AndroidManifest.xml`文件中加入如下一行：
+~~~
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+~~~
 #### 1、获取经纬度
 
 ```Javascript
