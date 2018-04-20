@@ -17,6 +17,8 @@
 ### React Native
 * [《rn-mobx-course》](https://github.com/beverle-y/rn-mobx-course)
 
+* [《定位和天气》](https://github.com/beverle-y/note/tree/master/rn/location)
+
 * [《react-native-pushy 热更新》](https://github.com/reactnativecn/react-native-pushy/blob/master/docs/guide.md)
 
 * [《rn-splash-screen 启动屏》](https://github.com/mehcode/rn-splash-screen)
