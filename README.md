@@ -15,7 +15,7 @@
 * [《严格模式》](https://github.com/beverle-y/note/tree/master/mobx/configure)
 
 ### React Native
-* [《rn-mobx-course》](https://github.com/beverle-y/rn-mobx-course)
+* [《rn-mobx-starter》](https://github.com/beverle-y/rn-mobx-starter)
 
 * [《定位和天气》](https://github.com/beverle-y/note/tree/master/rn/location)
 
