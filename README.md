@@ -3,6 +3,8 @@
 ### 杂记
 * [《Debounce And Throttle》](https://github.com/beverle-y/note/tree/master/debounce%20and%20throttle)
 
+* [《SpinKit》](http://tobiasahlin.com/spinkit/)
+
 ### Node
 * [《HTTP请求》](https://github.com/beverle-y/note/tree/master/node/httpRequest)
 
