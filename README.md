@@ -5,6 +5,8 @@
 
 * [《SpinKit》](http://tobiasahlin.com/spinkit/)
 
+* [《ScreenToGift 录屏》](http://www.screentogif.com/?l=zh_cn)
+
 ### Node
 * [《HTTP请求》](https://github.com/beverle-y/note/tree/master/node/httpRequest)
 
