@@ -7,17 +7,6 @@
 
 * [《ScreenToGift 录屏》](http://www.screentogif.com/?l=zh_cn)
 
-### Node
-* [《HTTP请求》](https://github.com/beverle-y/note/tree/master/node/httpRequest)
-
-* [《HTTPS服务器》](https://github.com/beverle-y/note/tree/master/node/https)
-
-### 算法
-* [《快速排序》](https://github.com/beverle-y/note/tree/master/agorithm/quickSort)
-
-### Mobx 4
-* [《严格模式》](https://github.com/beverle-y/note/tree/master/mobx/configure)
-
 ### React Native
 * [《rn-mobx-starter》](https://github.com/beverle-y/rn-mobx-starter)
 
@@ -34,4 +23,15 @@
 * [《socket.io-client》](https://github.com/socketio/socket.io-client)
 
 * [《图标工厂》](https://icon.wuruihong.com/)
+
+### Node
+* [《HTTP请求》](https://github.com/beverle-y/note/tree/master/node/httpRequest)
+
+* [《HTTPS服务器》](https://github.com/beverle-y/note/tree/master/node/https)
+
+### 算法
+* [《快速排序》](https://github.com/beverle-y/note/tree/master/agorithm/quickSort)
+
+### Mobx 4
+* [《严格模式》](https://github.com/beverle-y/note/tree/master/mobx/configure)
 
