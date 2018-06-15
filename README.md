@@ -7,6 +7,8 @@
 
 * [《ScreenToGift 录屏》](http://www.screentogif.com/?l=zh_cn)
 
+* [《nvm node版本管理工具》](https://github.com/creationix/nvm)
+
 ### React Native
 * [《rn-mobx-starter》](https://github.com/beverle-y/rn-mobx-starter)
 
