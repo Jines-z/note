@@ -9,6 +9,8 @@
 
 * [《nvm node版本管理工具》](https://github.com/creationix/nvm)
 
+* [《Git 提交规范》](https://github.com/beverle-y/note/tree/master/git/commit)
+
 ### React Native
 * [《rn-mobx-starter》](https://github.com/beverle-y/rn-mobx-starter)
 
