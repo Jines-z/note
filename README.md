@@ -33,6 +33,8 @@
 
 * [《HTTPS服务器》](https://github.com/beverle-y/note/tree/master/node/https)
 
+* [《Child_Process 子进程》](https://github.com/beverle-y/note/tree/master/node/child_process)
+
 ### 算法
 * [《快速排序》](https://github.com/beverle-y/note/tree/master/agorithm/quickSort)
 
