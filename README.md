@@ -29,6 +29,8 @@
 * [《图标工厂》](https://icon.wuruihong.com/)
 
 ### Node
+* [《常用工具类库》](https://github.com/beverle-y/note/tree/master/node/tools)
+
 * [《HTTP请求》](https://github.com/beverle-y/note/tree/master/node/httpRequest)
 
 * [《HTTPS服务器》](https://github.com/beverle-y/note/tree/master/node/https)
