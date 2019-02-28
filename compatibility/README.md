@@ -1,19 +1,19 @@
-## Node Tools
+## 移动端兼容性处理
 
-#### Ios 滑动不流畅：
+### Ios 滑动不流畅：
 -webkit-overflow-scrolling: touch;
 
-##### Android 低端机 float 循环布局时，丢失下标：
+### Android 低端机 float 循环布局时，丢失下标：
 使用display: inline-block;
 
-#### 图片加载出错（占位图）
+### 图片加载出错（占位图）
 javascript: onerror
 
 vue: @error
 
 注意：不要循环 error
 
-#### 文本溢出，显示省略号
+### 文本溢出，显示省略号
 单行：
 ```css
 .ellipsis {
@@ -74,25 +74,25 @@ vue: @error
 </script>
 ```
 
-#### 文本换行包含英文单词
+### 文本换行包含英文单词
 断开单词：word-break: break-all;
 
 不断开：  word-break: break-word;
 
-#### iframe
+### iframe
 ios8 中必须有初始高度，不然不加载
 
 android 设备中有遮罩的情况下，会点击穿透，应做多重优化，iframe 和容器都设置 overflow: hidden; 并点击事件阻止冒泡，iframe 内部也应有遮罩。
 
 同主域情况下，可以使用postMessage来设置动态高度
 
-#### Flex
+### Flex
 左侧定宽，右侧自适应宽 100% 时，其内容超出宽度时，会撑大右侧的宽
 
-#### Pre
+### Pre
 pre标签在 ios8、ios9 中不会保留格式，需设置 white-space: pre-wrap;
 
-#### 优化
+### 优化
 对于小屏幕的适配
 
 iphone X 适配
