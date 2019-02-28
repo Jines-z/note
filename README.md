@@ -11,6 +11,8 @@
 
 * [《Git 提交规范》](https://github.com/beverle-y/note/tree/master/git/commit)
 
+* [《移动端兼容性》](https://github.com/beverle-y/note/tree/master/git/commit)
+
 ### React Native
 * [《rn-mobx-starter》](https://github.com/beverle-y/rn-mobx-starter)
 
