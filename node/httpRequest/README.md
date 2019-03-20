@@ -27,4 +27,4 @@ request(option, function(error, response, body) {
     console.log(body)
 })
 ```
-[目录](https://github.com/beverle-y/note)
+[目录](https://github.com/jines-z/note)

@@ -61,4 +61,4 @@ const handle = () =>{
 
 window.addEventListener('scroll', throttling(handle, 300, 1000));
 ```
-[目录](https://github.com/beverle-y/note)
+[目录](https://github.com/jines-z/note)

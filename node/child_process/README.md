@@ -43,4 +43,4 @@ spawn('npm', ['run', 'build'], {
 ```
 
 
-[目录](https://github.com/beverle-y/note)
+[目录](https://github.com/jines-z/note)

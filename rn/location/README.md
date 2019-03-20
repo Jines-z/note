@@ -94,4 +94,4 @@ Get(url,options,(res)=>{
 
 登录-> 控制台-> 应用管理 ->创建新应用 ->生成key
 
-[目录](https://github.com/beverle-y/note)
+[目录](https://github.com/jines-z/note)

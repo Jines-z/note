@@ -101,4 +101,4 @@ iphone X 适配
 
 ios中有默认滚动条，android中没有，需特殊处理
 
-[目录](https://github.com/beverle-y/note)
+[目录](https://github.com/jines-z/note)

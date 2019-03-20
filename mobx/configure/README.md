@@ -17,4 +17,4 @@ class Store {
 
 export default new Store()
 ```
-[目录](https://github.com/beverle-y/note)
+[目录](https://github.com/jines-z/note)

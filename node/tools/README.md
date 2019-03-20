@@ -18,4 +18,4 @@
 
 * [《Download-git-repo 下载git文件》](https://www.npmjs.com/package/download-git-repo)
 
-[目录](https://github.com/beverle-y/note)
+[目录](https://github.com/jines-z/note)

@@ -1,7 +1,7 @@
 # 目录
 
 ### 杂记
-* [《Debounce And Throttle》](https://github.com/beverle-y/note/tree/master/debounce%20and%20throttle)
+* [《Debounce And Throttle》](https://github.com/jines-z/note/tree/master/debounce%20and%20throttle)
 
 * [《SpinKit》](http://tobiasahlin.com/spinkit/)
 
@@ -9,14 +9,14 @@
 
 * [《nvm node版本管理工具》](https://github.com/creationix/nvm)
 
-* [《Git 提交规范》](https://github.com/beverle-y/note/tree/master/git/commit)
+* [《Git 提交规范》](https://github.com/jines-z/note/tree/master/git/commit)
 
-* [《移动端兼容性》](https://github.com/beverle-y/note/tree/master/compatibility)
+* [《移动端兼容性》](https://github.com/jines-z/note/tree/master/compatibility)
 
 ### React Native
-* [《rn-mobx-starter》](https://github.com/beverle-y/rn-mobx-starter)
+* [《rn-mobx-starter》](https://github.com/jines-z/rn-mobx-starter)
 
-* [《定位和天气》](https://github.com/beverle-y/note/tree/master/rn/location)
+* [《定位和天气》](https://github.com/jines-z/note/tree/master/rn/location)
 
 * [《react-native-pushy 热更新》](https://github.com/reactnativecn/react-native-pushy/blob/master/docs/guide.md)
 
@@ -31,17 +31,18 @@
 * [《图标工厂》](https://icon.wuruihong.com/)
 
 ### Node
-* [《常用工具类库》](https://github.com/beverle-y/note/tree/master/node/tools)
+* [《常用工具类库》](https://github.com/jines-z/note/tree/master/node/tools)
 
-* [《HTTP请求》](https://github.com/beverle-y/note/tree/master/node/httpRequest)
+* [《HTTP请求》](https://github.com/jines-z/note/tree/master/node/httpRequest)
 
-* [《HTTPS服务器》](https://github.com/beverle-y/note/tree/master/node/https)
+* [《HTTPS服务器》](https://github.com/jines-z/note/tree/master/node/https)
 
-* [《Child_Process 子进程》](https://github.com/beverle-y/note/tree/master/node/child_process)
+* [《Child_Process 子进程》](https://github.com/jines-z/note/tree/master/node/child_process)
 
 ### 算法
-* [《快速排序》](https://github.com/beverle-y/note/tree/master/agorithm/quickSort)
+* [《快速排序》](https://github.com/jines-z/note/tree/master/agorithm/quickSort)
 
-### Mobx 4
-* [《严格模式》](https://github.com/beverle-y/note/tree/master/mobx/configure)
+### Mobx
+* [《Mobx4 严格模式》](https://github.com/jines-z/note/tree/master/mobx/configure)
+* [《IE 兼容》](https://github.com/jines-z/note/tree/master/mobx/ie)
 
