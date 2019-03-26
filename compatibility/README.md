@@ -74,6 +74,54 @@ vue: @error
 </script>
 ```
 
+### input 字母"y g"等显示不全
+ios 中 form 内的 input 默认有圆角 50%，需修改。
+
+左侧字母显示不全，布局时用text-indent解决。
+
+### input 软键盘搜索
+必须用form包裹
+```
+<form action="javascript:void(0)">
+    <input type="search" />
+</form>
+```
+
+### input 上传文件
+必须用form包裹
+```
+<form encType="multipart/form-data" action="javascript:void(0)">
+    <input multiple="multiple" type="file" />
+</form>
+```
+
+### input android软键盘弹起时，窗口高度变小
+可以通过 js 获取窗口高度，设置最外层高度为固定值非 100% 即可
+
+### input、select 软键盘弹起时，有可滚动内容时，fixed失效
+下面代码会失效：
+```html
+    <header style="position: fixed"></header>
+
+    <!-- 可以滚动区域 -->
+    <main style="height: 2000px">
+        <!-- 内容... -->
+    </main>
+
+    <footer style="position: fixed"></footer>
+```
+用含有position: absolute属性的容器隔离开，不会失效：
+```html
+    <header style="position: fixed"></header>
+
+    <!-- 可以滚动的区域 -->
+    <main style="position: absolute; top: 0; left: 0;">
+        <div class="content"></div>
+    </main>
+
+    <footer style="position: fixed"></footer>
+```
+
 ### 文本换行包含英文单词
 断开单词：word-break: break-all;
 
@@ -100,5 +148,7 @@ iphone X 适配
 移动端为了优化用户体验，应 keep alive，并记住滚动条位置
 
 ios中有默认滚动条，android中没有，需特殊处理
+
+断网提示(window.navigator.online)
 
 [目录](https://github.com/jines-z/note)

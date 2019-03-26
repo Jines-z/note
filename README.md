@@ -7,7 +7,7 @@
 
 * [《ScreenToGift 录屏》](http://www.screentogif.com/?l=zh_cn)
 
-* [《nvm node版本管理工具》](https://github.com/creationix/nvm)
+* [《Nvm node 版本管理工具》](https://github.com/creationix/nvm)
 
 * [《Git 提交规范》](https://github.com/jines-z/note/tree/master/git/commit)
 
