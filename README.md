@@ -30,6 +30,8 @@
 
 * [《图标工厂》](https://icon.wuruihong.com/)
 
+* [《兼容性》](https://github.com/jines-z/note/tree/master/rn/compatibility)
+
 ### Node
 * [《常用工具类库》](https://github.com/jines-z/note/tree/master/node/tools)
 

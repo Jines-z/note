@@ -50,11 +50,11 @@ vue: @error
 <span>爱上【A}】邓12—_-~`丽君aaaa卡了跨界石考虑到佳世客拉大锯啊打开了啊数据库拉三等奖拉斯肯德基阿卡丽大师级的卡拉加大款拉大锯啊了可多</span>
 
 <script type="text/javascript">
-    const $dom = document.querySelector('span')
-    const text = $dom.innerHTML
+    const $span = document.querySelector('span')
+    const text = $span.innerHTML
     let line = 3 // 超出3行显示...
     let fontSize = 14
-    let maxWidth = line * $dom.offsetWidth // 3行占用总宽度
+    let maxWidth = line * $span.offsetWidth // 3行占用总宽度
     let maxAt = Math.floor(maxWidth / fontSize) * 2
     function ellipsis(str) {
         let realLength = 0
@@ -70,7 +70,7 @@ vue: @error
             }
         }
     }
-    $dom.innerHTML = ellipsis(text)
+    $span.innerHTML = ellipsis(text)
 </script>
 ```
 
@@ -149,6 +149,6 @@ iphone X 适配
 
 ios中有默认滚动条，android中没有，需特殊处理
 
-断网提示(window.navigator.online)
+断网提示
 
 [目录](https://github.com/jines-z/note)
