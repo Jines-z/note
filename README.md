@@ -44,7 +44,12 @@
 ### 算法
 * [《快速排序》](https://github.com/jines-z/note/tree/master/agorithm/quickSort)
 
+* [《选择排序》](https://github.com/jines-z/note/tree/master/agorithm/chooseSort)
+
+* [《二分查找》](https://github.com/jines-z/note/tree/master/agorithm/halfSearch)
+
 ### Mobx
 * [《Mobx4 严格模式》](https://github.com/jines-z/note/tree/master/mobx/configure)
+
 * [《IE 兼容》](https://github.com/jines-z/note/tree/master/mobx/ie)
 
