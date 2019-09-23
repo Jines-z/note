@@ -89,10 +89,18 @@ ios 中 form 内的 input 默认有圆角 50%，需修改。
 
 ### input 上传文件
 必须用form包裹
-```
+```html
 <form encType="multipart/form-data" action="javascript:void(0)">
     <input multiple="multiple" type="file" />
 </form>
+```
+
+### input 移动端 type="number" 只能输入非负数字
+```html
+<input pattern="[0-9]*" type="tel">
+```
+```javascript
+value.replace(/\D/g, '')
 ```
 
 ### input android软键盘弹起时，窗口高度变小
