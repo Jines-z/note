@@ -13,6 +13,8 @@
 
 * [《移动端兼容性》](https://github.com/jines-z/note/tree/master/compatibility)
 
+* [《PowerShell 给命令设置 alias》](https://github.com/jines-z/note/tree/master/compatibility)
+
 ### React Native
 * [《rn-mobx-starter》](https://github.com/jines-z/rn-mobx-starter)
 
