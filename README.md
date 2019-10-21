@@ -50,6 +50,8 @@
 
 * [《二分查找》](https://github.com/jines-z/note/tree/master/agorithm/halfSearch)
 
+* [《滑动窗口》](https://github.com/jines-z/note/tree/master/agorithm/slidingWindow)
+
 ### Mobx
 * [《Mobx4 严格模式》](https://github.com/jines-z/note/tree/master/mobx/configure)
 
