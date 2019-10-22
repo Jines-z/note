@@ -52,6 +52,8 @@
 
 * [《滑动窗口》](https://github.com/jines-z/note/tree/master/agorithm/slidingWindow)
 
+* [《中心扩展法》](https://github.com/jines-z/note/tree/master/agorithm/centerExtension)
+
 ### Mobx
 * [《Mobx4 严格模式》](https://github.com/jines-z/note/tree/master/mobx/configure)
 
