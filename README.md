@@ -59,3 +59,5 @@
 
 * [《IE 兼容》](https://github.com/jines-z/note/tree/master/mobx/ie)
 
+### Electron
+* [《安装前的准备》](https://github.com/jines-z/note/tree/master/electron/preparations)
