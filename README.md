@@ -15,6 +15,8 @@
 
 * [《PowerShell 给命令设置 alias》](https://github.com/jines-z/note/tree/master/power%20shell)
 
+* [《Linux 服务器配置教程》](https://github.com/jines-z/note/tree/master/linux/config)
+
 ### React Native
 * [《rn-mobx-starter》](https://github.com/jines-z/rn-mobx-starter)
 
