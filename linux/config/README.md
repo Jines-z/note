@@ -8,18 +8,17 @@ yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel unzip zip
 2、下载并解压安装包
 ```shell script
 cd /usr/local
-mkdir nginx
-cd nginx
 wget http://nginx.org/download/nginx-1.18.0.tar.gz
 tar -xvf nginx-1.18.0.tar.gz
+mv nginx-1.18.0 nginx
 ```
 
 3、安装 Nginx
 ```shell script
-cd /usr/local/nginx/nginx-1.18.0
+cd /usr/local/nginx
 ./configure
 make
-make install
+nginx -c /usr/local/nginx/conf/nginx.conf
 ```
 
 4、配置环境变量
