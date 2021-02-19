@@ -35,4 +35,29 @@ source /etc/profile
 nginx -v
 ```
 
+5、安装nodejs
+
+[下载 Linux 二进制文件](https://npm.taobao.org/mirrors/node/v14.15.4/)
+```shell script
+cd /usr/local
+#上传文件
+tar -xvf node-v14.15.4-linux-x64.tar.xz  
+mv node-v14.15.4-linux-x64 nodejs
+```
+
+6、配置环境变量
+```shell script
+vim /etc/profile
+
+#文件最下方添加
+export PATH=$PATH:/usr/local/nodejs/bin
+
+#保存退出执行
+source /etc/profile
+
+#测试环境变量是否成效
+node -v
+npm -v
+```
+
 [目录](https://github.com/jines-z/note)
