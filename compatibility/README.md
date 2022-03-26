@@ -1,6 +1,27 @@
 ## 移动端兼容性处理
 
-### Ios 滑动不流畅：
+### 微信 wx-open-audio 开放标签兼容性
+-   封装格式 wav + 编码格式 pcm_s32le无法播放。
+-   兼容性最好的封装格式是 mp3。
+-   暂停时设置 playbackRate 无效。开放标签初始化完成前设置 playbackRate 会将该属性的 setter 覆盖导致后续设置倍速失效。
+
+### video requestFullscreen
+IOS 中 requestFullscreen 只能使用 video 调用。Android 中其他元素可以调用 requestFullscreen 使该 dom 全屏。
+
+### 视频全屏兼容性
+当视频为横向视频时，某些安卓机全屏后会自动旋转至横屏，需要监听屏幕旋转做额外处理。
+
+### 监听屏幕旋转
+-   IOS 使用 orientationchange。
+-   Android 使用 MediaQueryList。Android@4 及以下需使用 addListener。以上使用 addEventListener。
+
+### Vue slot 兼容性
+vue@2.5.16 中，单一组件内部不可使用多个同名 slot，会报 warning，需使用 this。$slots + component 的思想，将 slot 取出并增加 render 方法当做一个内部组件来复用。
+
+### m3u8 格式视频播放
+IOS 原生支持播放m3u8，Android 需要使用 hls.js 兼容。
+
+### Ios overflow 滑动不流畅：
 -webkit-overflow-scrolling: touch;
 
 ### Android 低端机 float 循环布局时，丢失下标：
@@ -146,7 +167,7 @@ android 设备中有遮罩的情况下，会点击穿透，应做多重优化，
 左侧定宽，右侧自适应宽 100% 时，其内容超出宽度时，会撑大右侧的宽
 
 ### Pre
-pre标签在 ios8、ios9 中不会保留格式，需设置 white-space: pre-wrap;
+pre 标签在 ios8、ios9 中不会保留格式，需设置 white-space: pre-wrap;
 
 ### 优化
 对于小屏幕的适配
