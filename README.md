@@ -17,6 +17,8 @@
 
 * [《Linux 服务器配置教程》](https://github.com/jines-z/note/tree/master/linux/config)
 
+* [《Mac 初始化配置教程》](https://github.com/jines-z/note/tree/master/linux/mac)
+
 ### React Native
 * [《rn-mobx-starter》](https://github.com/jines-z/rn-mobx-starter)
 
